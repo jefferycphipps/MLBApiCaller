@@ -52,11 +52,7 @@ public class League {
 
     @Override
     public String toString() {
-        return "League{" +
-                "alias='" + alias + '\'' +
-                ", name='" + name + '\'' +
-                ", id='" + id + '\'' +
-                ", season=" + season +
-                '}';
+        return alias + System.lineSeparator() +
+                 season + System.lineSeparator();
     }
 }

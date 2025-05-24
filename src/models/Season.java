@@ -51,11 +51,8 @@ public class Season {
 
     @Override
     public String toString() {
-        return "Season{" +
-                "id='" + id + '\'' +
-                ", year='" + year + '\'' +
-                ", type='" + type + '\'' +
-                ", leagues=" + leagues +
-                '}';
+        return System.lineSeparator() +
+                "Year:" + year + System.lineSeparator() +
+                "Leagues" + System.lineSeparator() + leagues + System.lineSeparator();
     }
 }

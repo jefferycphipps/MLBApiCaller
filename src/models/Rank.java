@@ -27,9 +27,9 @@ public class Rank {
 
     @Override
     public String toString() {
-        return "Rank{" +
-                "division='" + division + '\'' +
-                ", league='" + league + '\'' +
+        return "Rank{" +  System.lineSeparator() +
+                "division='" + division + '\'' +  System.lineSeparator() +
+                ", league='" + league + '\'' +  System.lineSeparator() +
                 '}';
     }
 }

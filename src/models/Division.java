@@ -51,11 +51,7 @@ public class Division {
 
     @Override
     public String toString() {
-        return "Division{" +
-                "alias='" + alias + '\'' +
-                ", name='" + name + '\'' +
-                ", id='" + id + '\'' +
-                ", teams=" + teams +
-                '}';
+        return System.lineSeparator() + name.toUpperCase() + System.lineSeparator() +
+                "Teams:" + System.lineSeparator() + teams + System.lineSeparator();
     }
 }

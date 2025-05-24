@@ -53,11 +53,7 @@ public class Leagues {
 
     @Override
     public String toString() {
-        return "Leagues{" +
-                "alias='" + alias + '\'' +
-                ", name='" + name + '\'' +
-                ", id='" + id + '\'' +
-                ", divisions=" + divisions +
-                '}';
+        return System.lineSeparator() + name.toUpperCase() + System.lineSeparator() +
+                divisions + System.lineSeparator();
     }
 }

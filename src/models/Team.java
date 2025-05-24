@@ -278,34 +278,8 @@ public class Team {
 
     @Override
     public String toString() {
-        return "Teams{" +
-                "name='" + name + '\'' +
-                ", market='" + market + '\'' +
-                ", abbr='" + abbr + '\'' +
-                ", id='" + id + '\'' +
-                ", away_loss='" + away_loss + '\'' +
-                ", away_win='" + away_win + '\'' +
-                ", elimination_number='" + elimination_number + '\'' +
-                ", games_back='" + games_back + '\'' +
-                ", home_loss='" + home_loss + '\'' +
-                ", home_win='" + home_win + '\'' +
-                ", last_10_lost='" + last_10_lost + '\'' +
-                ", last_10_win='" + last_10_win + '\'' +
-                ", loss='" + loss + '\'' +
-                ", streak='" + streak + '\'' +
-                ", wild_card_back='" + wild_card_back + '\'' +
-                ", win='" + win + '\'' +
-                ", win_p='" + win_p + '\'' +
-                ", al_loss='" + al_loss + '\'' +
-                ", al_win='" + al_win + '\'' +
-                ", c_loss='" + c_loss + '\'' +
-                ", c_win='" + c_win + '\'' +
-                ", w_loss='" + w_loss + '\'' +
-                ", w_win='" + w_win + '\'' +
-                ", e_loss='" + e_loss + '\'' +
-                ", e_win='" + e_win + '\'' +
-                ", division_elimination_number='" + division_elimination_number + '\'' +
-                ", rank=" + rank +
-                '}';
+        return System.lineSeparator() + market + " " +  name + System.lineSeparator() +
+                "Wins:" + win +   System.lineSeparator() +
+                "Losses:" + loss +   System.lineSeparator();
     }
 }
